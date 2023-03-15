@@ -1,0 +1,36 @@
+main {
+  height: 100vh;
+}
+main .left-container {
+  display: inline;
+}
+main .left-container .second-container {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+}
+main .left-container .second-container .get-it-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .left-container .second-container .get-it-button button {
+  background-color: #000;
+  color: #FFF;
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+}
+main .logo {
+  height: 10vh;
+  color: #000;
+  display: flex;
+}
+main .logo i {
+  color: aqua;
+  font-size: 35px;
+}
+main .logo .text {
+  font: 100% Helvetica, sans-serif;
+}/*# sourceMappingURL=main.css.map */

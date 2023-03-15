@@ -1,0 +1,49 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #000;
+
+main {
+  height: 100vh;
+
+  .left-container {
+    display: inline;
+    .second-container {
+      display: flex;
+      align-items: center;
+      height: 90vh;
+
+      .get-it-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        button {
+          background-color: #000;
+          color: #FFF;
+          margin: 10px 10px 10px 10px;
+          border-radius: 10px;
+          height: 30px;
+          width: 100px;
+        }
+      }
+    }
+  }
+
+  .logo {
+    height: 10vh;
+    color: $primary-color;
+    display: flex;
+
+    i {
+      color: aqua;
+      font-size: 35px;
+    }
+
+    .text {
+      font: 100% $font-stack;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main {}
+}

@@ -1,0 +1,59 @@
+aside {
+    width: 5vw;
+    height: 88vh;
+    background-color: #a1a1a16f;
+}
+
+nav a {
+    font-size: 30px;
+}
+
+thead {
+    font-size: 10px;
+}
+
+.container {
+    width: 100vw;
+    height: 88vh;
+    margin: 0px;
+}
+
+.bottom {
+    width: 87vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+thead tr th a {
+    color: white;
+    text-decoration: none;
+}
+
+thead tr th a:hover {
+    color: orange;
+}
+
+.CellWithComment {
+    position: relative;
+}
+
+.CellComment {
+    visibility: hidden;
+    width: auto;
+    position: absolute;
+    z-index: 100;
+    text-align: Left;
+    opacity: 0.4;
+    transition: opacity 2s;
+    border-radius: 6px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 3px;
+    bottom: -30px;
+    left: 40px;
+}
+
+.CellWithComment:hover span.CellComment {
+    visibility: visible;
+    opacity: 1;
+}
